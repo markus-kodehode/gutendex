@@ -53,6 +53,12 @@ header {
   gap: 15px;
 }
 
+.header-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .categories {
   display: flex;
   flex-wrap: wrap;
