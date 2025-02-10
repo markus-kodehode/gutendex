@@ -55,14 +55,9 @@ export default function BookSearch() {
         <button type="submit">SEARCH</button>
       </form>
 
-      <div className="header-links">
-        <Link to="/" className="link">
-          <h2>Home</h2>
-        </Link>
-        <Link to="/favorites" className="link">
-          <h2>Favorites</h2>
-        </Link>
-      </div>
+      <Link to="/favorites" className="link">
+        <h2>Favorites</h2>
+      </Link>
 
       <div className="categories">
         {categories.map((category) => (
